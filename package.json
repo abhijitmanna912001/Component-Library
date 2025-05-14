@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/abhijitmanna912001/Component-Library/issues"
   },
-  "homepage": "https://github.com/abhijitmanna912001/Component-Library#readme"
+  "homepage": "https://github.com/abhijitmanna912001/Component-Library#readme",
+  "dependencies": {
+    "@types/react": "^19.1.4",
+    "react": "^19.1.0",
+    "typescript": "^5.8.3"
+  }
 }
