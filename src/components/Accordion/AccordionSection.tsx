@@ -26,14 +26,14 @@ const AccordionSection = ({
     <div className={twMerge(accordionSectionStyles({ variant }))}>
       <button
         type="button"
-        className="flex justify-between items-center w-full cursor-pointer focus:outline-none"
+        className="flex justify-between cursor-pointer w-full text-left focus:outline-none"
         onClick={() => setIsOpen(!isOpen)}
         aria-expanded={isOpen}
       >
-        <h2 className="text-left">{title}</h2>
-        <span>{isOpen ? "-" : "+"}</span>
-        {isOpen && <div className="mt-2">{children}</div>}
+        <h2>{title}</h2>
+        <span>{isOpen ? "−" : "+"}</span>
       </button>
+      {isOpen && <div className="mb-2">{children}</div>}
     </div>
   );
 };
