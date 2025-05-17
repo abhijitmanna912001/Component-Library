@@ -33,7 +33,7 @@ const Input = ({
     inputStyles({ variant, size, disabled }),
     className
   );
-  return <Input {...props} className={mergedClassNames} disabled={disabled} />;
+  return <input {...props} className={mergedClassNames} disabled={disabled} />;
 };
 
 export default Input;
