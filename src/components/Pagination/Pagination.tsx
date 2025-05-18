@@ -7,7 +7,7 @@ interface PaginationProps {
   totalPages: number;
   onPageChange: (page: number) => void;
   size?: "small" | "medium" | "large";
-  variant: "default" | "primary" | "secondary";
+  variant?: "default" | "primary" | "secondary";
   disabled?: boolean;
 }
 
