@@ -1,7 +1,7 @@
 {
   "name": "vibe-components",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.3",
+  "description": "A customizable, accessible React component library built with Tailwind CSS, CVA, and Storybook.",
   "main": "dist/cjs/index.js",
   "files": [
     "dist"
