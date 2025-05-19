@@ -11,7 +11,9 @@
     "rollup": "rollup -c --bundleConfigAsCjs",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test:ui": "vitest --ui"
+    "test:ui": "vitest --ui",
+    "clean": "rm -rf dist",
+    "build": "npm run clean && npm run rollup"
   },
   "keywords": [
     "react",
