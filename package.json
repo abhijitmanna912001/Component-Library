@@ -1,6 +1,6 @@
 {
   "name": "vibe-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/cjs/index.js",
   "files": [
@@ -14,9 +14,15 @@
     "test:ui": "vitest --ui"
   },
   "keywords": [
-    "random",
-    "test",
-    "test2"
+    "react",
+    "component-library",
+    "ui-components",
+    "tailwindcss",
+    "tailwind",
+    "storybook",
+    "typescript",
+    "cva",
+    "class-variance-authority"
   ],
   "repository": {
     "type": "git",
