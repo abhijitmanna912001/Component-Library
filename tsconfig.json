@@ -16,5 +16,7 @@
     "allowSyntheticDefaultImports": true,
     "emitDeclarationOnly": true,
     "types": ["vitest/globals"]
-  }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "tests", "storybook-static"]
 }
